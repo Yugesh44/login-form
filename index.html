@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather details by yogesh </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city" spellcheck="false">
+            <button>search</button>
+        </div>
+
+
+        <div class="error">
+            <p>You enter the city name wrong</p>
+        </div>
+
+
+
+
+        <div class="weather">
+            <img src="raining.png" class=" weathericon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New Delhi</h2>
+
+
+
+
+            <div class="details">
+                <div class="col-1">
+                    <img src="humidity.png">
+                    <div class="text">
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-2">
+                    <img src="wind.png">
+                    <div class="text">
+                        <p class="wind">15 Km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="details2">
+                <div class="col-3">
+                    <img src="blood-pressure.png">
+                    <div class="text">
+                        <p class="pressure">50 mb</p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-4">
+                    <img src="eye.png">
+                    <div class="text">
+                        <p class="visibility">15 Km</p>
+                        <p>visibility</p>
+                    </div>
+                </div>
+            </div>
+            <div class="details3">
+                <div class="col-5">
+                    <img src="low-temperature.png">
+                    <div class="text">
+                        <p class="min-temp">22°c</p>
+                        <p>Min-temp</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-6">
+                    <img src="high-temperature.png">
+                    <div class="text">
+                        <p class="high-temp">22°c</p>
+                        <p>max-temp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="error" style="display:none; color:red; margin-top:10px;"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
